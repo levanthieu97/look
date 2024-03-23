@@ -1,6 +1,5 @@
 import { Row } from 'src/apps/components/Row'
 import styled, { css } from 'styled-components'
-import { StyledIconBase } from '@styled-icons/styled-icon'
 import { MEDIA, usingMedia } from 'src/styles/global.styled'
 
 export const FooterContainer = styled(Row)`
@@ -45,7 +44,7 @@ export const IconStyled = styled.span`
   color: #150f12;
   border-radius: 50%;
   text-align: center;
-  ${StyledIconBase} {
+  & svg {
     vertical-align: baseline;
     /* icon styles go here */
   }
