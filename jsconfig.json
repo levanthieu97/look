@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./src",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "paths": {
+      "src/*": ["./*"],
+      "components/*": ["./apps/components/*"],
+      "templates/*": ["./apps/templates/*"],
+      "@michi/*": ["./apps/templates/Michi-Ramen"],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    ".vscode",
+    ".tmp",
+    "dist"
+  ]
+}
